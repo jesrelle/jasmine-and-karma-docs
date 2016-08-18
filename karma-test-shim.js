@@ -7,7 +7,7 @@ __karma__.loaded = function () {
 
 
 function isJsFile(path) {
-  return path.slice(-3) == '.js';
+  return path.slice(-3) == '.js';//
 }
 
 function isSpecFile(path) {
